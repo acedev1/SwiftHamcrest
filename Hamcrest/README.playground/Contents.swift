@@ -206,9 +206,9 @@ func isDivisibleByThree() -> Matcher<Int> {
     return Matcher("divisible by three") {
         (value) -> MatchResult in
         if value % 3 == 0 {
-            return .match
+            return .Match
         } else {
-            return .mismatch("remainder: \(value % 3)")
+            return .Mismatch("remainder: \(value % 3)")
         }
     }
 }
