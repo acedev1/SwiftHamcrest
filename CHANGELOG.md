@@ -1,9 +1,3 @@
-Version 1.1.0
--------------
-_13 Oct Feb 2017_
-
-- Migrate to Swift 4.0
-
 Version 1.0.0
 -------------
 _19 Feb 2017_
