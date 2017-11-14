@@ -9,9 +9,8 @@ public struct MatchResultDescription {
     init(result: String?) {
         self.result = result
     }
-
     init<T>(value: @autoclosure () -> T, matcher: Matcher<T>) {
-        result = applyMatcher(matcher, toValue: value)
+        self.result = applyMatcher(matcher, toValue: value)
     }
 }
 
