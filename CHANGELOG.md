@@ -1,6 +1,6 @@
 Version 2.0.0
 -------------
-_31 Jan 2018_
+_17 Nov Feb 2017_
 
 - Migrate to Swift 4.0
 
